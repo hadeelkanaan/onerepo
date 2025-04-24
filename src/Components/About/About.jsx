@@ -28,12 +28,12 @@ function About() {
     <div className="flex mt-33 " id="about">
       <div className=" w-9/12 ml-5 py-3 px-4  hidden relative lg:block">
         <img
-          src="/assets/images/Circles.png"
+          src="assets/images/Circles.png"
           className="h-[300px] text-prim  "
         />
         <img
           className=" z-9999 absolute  inset-[125px] w-ic h-iche"
-          src="/assets/images/css.png"
+          src="assets/images/css.png"
           alt=""
         />
         <img
@@ -43,17 +43,17 @@ function About() {
         />
         <img
           className="w-ic h-iche absolute top-[5rem] left-[12rem] "
-          src="/assets/images/figma.png"
+          src="assets/images/figma.png"
           alt=""
         />
         <img
           className="w-ic h-iche absolute right-[6rem] bottom-[111px] "
-          src="/assets/images/react.png"
+          src="assets/images/react.png"
           alt=""
         />
         <img
           className="w-ic h-iche absolute bottom-[7.25rem] left-[6.25rem] z-10"
-          src="/assets/images/get hup.png"
+          src="assets/images/get hup.png"
           alt=""
         />
         <span className="absolute  bottom-[11.5rem] left-[3.25rem]"><SiTailwindcss className=" text-danger text-title  h-12  p-1 w-12 rounded-full bg-black " /> </span>
