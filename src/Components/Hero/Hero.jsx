@@ -32,7 +32,7 @@ function Hero({ hey, add, para, btn }) {
       <div className="relative  hidden lg:block ml-3 ">
         <img
           className="w-[290px] h-[350px]  mx-3  relative z-10 mt-[65px]"
-          src="/assets/images/laura.png"
+          src="assets/images/laura.png"
         />
         <div className="bg-primary absolute top-[5.75rem] left-6  rounded-lg w-8 h-8  rotate-180 transition-all duration-0"></div>
         <div className="bg-danger absolute z-10 rounded  top-20 right-1  w-5 h-5  "></div>
