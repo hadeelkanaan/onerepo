@@ -72,7 +72,7 @@ function About() {
                 <h1 className="py-[8px] text-prim font-semibold  dark:text-white">{element.det}</h1>
                 <div className="  bg-slate-200 rounded-but  h-2  w-[400px] font-semibold flex justify-start items-center ">
                   <div className='bg-danger h-full rounded-but  ' style={{ width: element.width }} />
-                  <img src="/assets/images/ci.png" className="w-8 h-8 mt-1 -ml-[1.25rem]" alt="" />
+                  <img src="assets/images/ci.png" className="w-8 h-8 mt-1 -ml-[1.25rem]" alt="" />
                 </div>
                 {/* <div className="bg-danger h-3 w-5 absolute top-0 right-0"> {element.width}</div> */}
               </div>
