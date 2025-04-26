@@ -6,7 +6,7 @@ function ProjectsPage() {
     <div className='flex flex-col md:flex-row md:justify-center items-center gap-2 px-4 mt-[85px]'>
         {/* left section image */}
         <div>
-            <img src='/assets/images/pro22.png' className=' w-[100%]    rounded-lg h-[230px] ' alt=""/>
+            <img src='assets/images/pro22.png' className=' w-[100%]    rounded-lg h-[230px] ' alt=""/>
             </div>
           {/* right section */}
         <div className='parent py-3 px-5 ml-2 '>
@@ -15,7 +15,7 @@ function ProjectsPage() {
         <h1 className='my-1 text-prim  dark:text-white'>Course Website</h1>
         <p className='my-1 text-batt'> 12-12-2024</p>
       </div>
-      <img src="/assets/images/Icon.png" className='w-9 cursor-pointer '/>
+      <img src="assets/images/Icon.png" className='w-9 cursor-pointer '/>
             </div>
             <p className='my-1'> A website for an institute offering educational courses for students,
               created using Html5, React and Css,

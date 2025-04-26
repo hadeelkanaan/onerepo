@@ -4,17 +4,17 @@ import Proto from '../../Proto/Proto'
 function Contact() {
   const information=[
     {
-    img:"/assets/images/phone.png"  ,
+    img:"assets/images/phone.png"  ,
     call:"call me",
     phone:"0981098728"
    } ,
     {
-    img:"/assets/images/email.png"  ,
+    img:"assets/images/email.png"  ,
     call:"Email me",
     phone:"khadeel596@gmail.com"
    },
     {
-    img:"/assets/images/location.png"  ,
+    img:"assets/images/location.png"  ,
     call:"Address",
     phone:"Latakia,syria"
    },]

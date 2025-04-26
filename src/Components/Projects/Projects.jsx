@@ -18,11 +18,11 @@ function Projects() {
              p="projects"/>
               <Cards  card={[
       {
-       img:"/assets/images/pro11.png",
+       img:"assets/images/pro11.png",
         inform:"Products Stor",
         det:"html-css-react-apis"},
       {
-        img:"/assets/images/pro33.png",
+        img:"assets/images/pro33.png",
         inform:"Courses Website",
         det:"html-css-react"},
       ]}/>

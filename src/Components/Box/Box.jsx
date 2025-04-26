@@ -22,7 +22,7 @@ function Box({conten,context,btn}) {
             {btn}
             </a>
        
-           <img src="/assets/images/a2.png"/>
+           <img src="assets/images/a2.png"/>
           </button>
         </div>
       </div>

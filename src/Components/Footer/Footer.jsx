@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Footer() {
-  const images = ["/assets/images/facebook.png", "/assets/images/twitter.png", "/assets/images/linkedin.png", "/assets/images/instagram.png"]
+  const images = ["assets/images/facebook.png", "assets/images/twitter.png", "assets/images/linkedin.png", "assets/images/instagram.png"]
   return (
     <div className='flex gap-1 flex-col justify-between items-center md:flex-row mt-33   '>
       <p>@ 2025.All Rights Reserved</p>
