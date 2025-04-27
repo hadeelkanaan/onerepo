@@ -15,8 +15,7 @@ function Hero({ hey, add, para, btn }) {
   return (
     <div className="reltives ">
  
- {/* <img src="/assets/images/hero1111.png"  className="absolute top-[7.5rem] left-0"/>
- <img src="/assets/images/hero1111.png" className="absolute top-[8.5rem]  left-0"/> */}
+ 
     <div className="flex justify-between  text-prim items-center mt-33 p-[10px]" id="hero">
      
       <div className="mt-16">
@@ -28,6 +27,7 @@ function Hero({ hey, add, para, btn }) {
         <button className=" border border-solid border-gray-50	 rounded-but px-md py-sm mt-2 dark:text-white hover:border-yellow-200	 dark:hover:bg-danger ">
           {btn}
         </button>
+        <button>clickk</button>
       </div>
       <div className="relative  hidden lg:block ml-3 ">
         <img
