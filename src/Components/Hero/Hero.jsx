@@ -28,6 +28,7 @@ function Hero({ hey, add, para, btn }) {
           {btn}
         </button>
         <button>clickk</button>
+        <button>clickk</button>
       </div>
       <div className="relative  hidden lg:block ml-3 ">
         <img
