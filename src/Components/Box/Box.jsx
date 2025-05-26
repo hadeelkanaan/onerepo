@@ -1,5 +1,5 @@
 import React from "react";
-
+import arrow2 from './../../assets/images/a2.png'
 function Box({conten,context,btn}) {
   return (
   <div className=" mt-[50px] w-[98%] relative mx-[15px]">
@@ -22,7 +22,7 @@ function Box({conten,context,btn}) {
             {btn}
             </a>
        
-           <img src="assets/images/a2.png"/>
+           <img src= {arrow2}/>
           </button>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import arrow from './../../assets/images/a1.png'
 
 function Eduction() {
 
@@ -80,7 +81,7 @@ function Eduction() {
     </div>
        
            {isVisible&& <div><button className="bg-danger text-white rounded-md w-[40px] h-[40px]  fixed bottom-5 right-5 hover:scale-75 duration-200 transition-all" onClick={()=>scrollToTop()}  >
-         <img src="/assets/images/a1.png" className="px-[10px]" alt=""/> </button></div>}
+         <img src={arrow} className="px-[10px]" alt=""/> </button></div>}
     </div>
   );
   

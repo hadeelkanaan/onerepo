@@ -1,7 +1,11 @@
 import React from 'react'
+import img1 from "./../../assets/images/facebook.png"
+import img2 from "./../../assets/images/twitter.png"
+import img3 from "./../../assets/images/linkedin.png"
+import img4 from "./../../assets/images/instagram.png"
 
 function Footer() {
-  const images = ["assets/images/facebook.png", "assets/images/twitter.png", "assets/images/linkedin.png", "assets/images/instagram.png"]
+  const images = [img1, img2, img3, img4]
   return (
     <div className='flex gap-1 flex-col justify-between items-center md:flex-row mt-33   '>
       <p>@ 2025.All Rights Reserved</p>

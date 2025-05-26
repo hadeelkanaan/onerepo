@@ -1,20 +1,23 @@
 import React from 'react'
 import Proto from '../../Proto/Proto'
+import phone from './../../assets/images/phone.png'
+import email from './../../assets/images/email.png'
+import loc from './../../assets/images/location.png'
 
 function Contact() {
   const information=[
     {
-    img:"assets/images/phone.png"  ,
+    img:phone  ,
     call:"call me",
     phone:"0981098728"
    } ,
     {
-    img:"assets/images/email.png"  ,
+    img: email ,
     call:"Email me",
     phone:"khadeel596@gmail.com"
    },
     {
-    img:"assets/images/location.png"  ,
+    img: loc ,
     call:"Address",
     phone:"Latakia,syria"
    },]

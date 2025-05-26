@@ -1,4 +1,5 @@
 import React from "react";
+import arrow3 from './../../src/assets/images/arrow-up.png'
 
 function Proto({ port, mypro, p, btn ,show}) {
   return (
@@ -11,7 +12,8 @@ function Proto({ port, mypro, p, btn ,show}) {
       </div>
       <button className={`bg-danger text-white  w-[130px] h-[40px] px-[13px] text-res sm:text-con flex items-center justify-center rounded-lg hover:scale-75 duration-200 transition-all ${(show) ? "block":"hidden"}`}>
         {btn}
-        <img src="assets/images/arrow-up.png"/>
+        <img src ={arrow3} />
+    
       </button>
      
     </div>

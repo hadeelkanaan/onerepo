@@ -1,4 +1,5 @@
 import React from 'react'
+import icon from './../../assets/images/Icon.png'
 function Cards({card}) {
     
   return (
@@ -6,13 +7,13 @@ function Cards({card}) {
    {card.map((element,index)=>{
     return(
     <div key={index} className='flex flex-col justify-between  px-3 py-[10px] gap-2 hover:border-[2px] border-yellow-200   hover:rounded-lg'>
-      <img src={element.img} alt="" className='w-[350px] border rounded-lg border-danger py-1 px-2'/>
+      <img src={element.img} alt="" className='w-[350px]  py-1 px-2'/>
       <div className='flex justify-between items-center'>
     <div className='m-2 '>
     <h1>{element.inform}</h1>
     <p>{element.det}</p>
     </div>
-      <img src="/assets/images/Icon.png" className='w-9 cursor-pointer'/>
+      <img src={ icon} className='w-9 cursor-pointer'/>
 
       </div>
     

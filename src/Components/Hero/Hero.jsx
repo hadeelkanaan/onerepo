@@ -28,8 +28,7 @@ function Hero({ hey, add, para, btn }) {
         <button className=" border border-solid border-gray-50	 rounded-but px-md py-sm mt-2 dark:text-white hover:border-yellow-200	 dark:hover:bg-danger ">
           {btn}
         </button>
-        <button>clickk</button>
-        <button>clickk</button>
+       
       </div>
       <div className="relative  hidden lg:block ml-3 ">
         <img

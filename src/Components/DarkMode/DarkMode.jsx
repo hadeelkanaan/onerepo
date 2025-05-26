@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import  moon  from './../../assets/images/moon.png'
+import  sun  from './../../assets/images/sun.png'
 
 function DarkMode() {
   
@@ -21,7 +23,7 @@ function DarkMode() {
       <button className="relative " >
      
         <img
-          src="assets/images/moon.png"
+          src={moon}
          onClick={() => setTheme(theme === "light" ? "dark" : "light")}
           alt=""
           className={` absolute z-10 top-2 w-8 cursor-pointer transition-all duration-300 ${theme==="dark" ?"opacity-0" :"opacity-100"} `}
@@ -30,7 +32,7 @@ function DarkMode() {
 
         <img
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-        src="assets/images/sun.png"
+        src={sun}
         className={`w-12 cursor-pointer transition-all duration-700  ${theme==="light" ? "opacity-0" :"opacity-100"}`}/>
         
 

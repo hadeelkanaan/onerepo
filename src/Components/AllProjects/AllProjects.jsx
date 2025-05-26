@@ -1,6 +1,9 @@
 import React from "react";
 import Proto from "../../Proto/Proto";
 import Cards from "../Cards/Cards";
+import pro11 from './../../assets/images/pro11.png'
+import pro22 from './../../assets/images/pro22.png'
+import pro33 from './../../assets/images/pro33.png'
 
 function AllProjects() {
   return (
@@ -14,15 +17,15 @@ function AllProjects() {
       />
       <Cards card={[
       {
-        img:"assets/images/pro11.png",
+        img:pro11,
         inform:"Products Stor",
         det:"html-css-react-apis"},
       {
-        img:"assets/images/pro22.png",
+        img: pro22,
         inform:"Courses Website",
         det:"html-css-react"},
       {
-        img:"assets/images/pro33.png",
+        img:pro33,
         inform:"Restorand Menu",
         det:"html-css"}]}/>
     </div>
